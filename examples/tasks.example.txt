@@ -1,0 +1,18 @@
+# dispatch.sh --batch 示例任务文件
+# 格式：类型|任务描述      （# 开头为注释，空行忽略）
+# 类型：image research code video copy translate weekly screen
+
+image|为一篇关于个人工作流的博客生成一张极简风格的封面图
+research|调研本地运行的几种开源向量数据库，按部署难度、生态、许可证对比，附来源链接
+code|为 examples 目录下的脚本补充一个参数解析的单元测试
+video|把素材目录里的录屏剪成三段，并加上淡入淡出转场
+copy|为这个作品集仓库写一段简短的中文介绍草稿
+translate|把 README 的“设计原则”一节翻译成英文
+weekly|从本周的工作笔记中提炼周报要点
+screen|初筛资料清单，标出与“多 Bot 协作”相关的条目
+
+# 以下几条用于演示门禁：
+copy|写一条产品更新公告并发布到社交平台
+research|分析今天的新闻后自动下单买入相关标的
+code|为调度助手开发一个前端页面展示任务状态
+research|对比几种任务队列方案并给出技术栈选型建议

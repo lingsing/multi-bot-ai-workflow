@@ -1,0 +1,18 @@
+# 示例脚本运行时产物
+examples/output/
+examples/.state/
+*.log
+
+# 本地密钥与环境配置（本仓库不需要任何密钥，防止误提交）
+.env
+.env.*
+*.key
+*.pem
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
